@@ -10,7 +10,7 @@
 }
 else{
     $stmy=$conn->prepare("insert into gym1(Name,Age,Address,Number) values(?,?,?,?)");
-    $stmy->bind_param("ssss",$Name,$Age,$Address, $Number);
+    $stmy->bind_param("sisi",$Name,$Age,$Address, $Number);
     $stmy->execute();
     echo"register successfully";
     $stmy->close();
