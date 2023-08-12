@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="STYLE.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <title>Jils's Fitness GYM</title>
 </head>
 
@@ -35,21 +34,21 @@
     </header>
     <div class="container">
         <h1>Join The GYM Now</h1>
-        <form method="POST" action="GYM.php">
+        <form method="post" action="GYM.php">
             <div class="form-group">
-                <input type="text" name="" placeholder="Enter Your Name">
+                <input type="text" name="name" placeholder="Enter Your Name">
             </div>
             <div class="form-group">
-                <input type="text" name="" placeholder="Enter Your Age">
+                <input type="text" name="age" placeholder="Enter Your Age">
             </div>
             <div class="form-group">
-                <input type="text" name="" placeholder="Enter Your Address">
+                <input type="text" name="adr" placeholder="Enter Your Address">
             </div>
             <div class="form-group">
-                <input type="number" name="" placeholder="Enter Your mobile Number">
+                <input type="number" name="num" placeholder="Enter Your mobile Number">
             </div>
-            <button class="btn">Submit</button>
-            <!-- <button class="btn">Reset</button> -->
+            <input type="submit" value="submit" class="button" name="Submit">  
+        
         </form>
     </div>
 </body>
