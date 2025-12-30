@@ -27,4 +27,4 @@ This project is a simple website for Jils's Fitness GYM. It provides information
 - Open a web browser and navigate to the URL of the locally hosted project.
 - Explore the different sections of the website: Home, About Us, Fitness Tips, and Contact Us.
 - To register, navigate to the "Join The GYM Now" section and fill out the form.
-- Submitted registration data will be stored in the MySQL database.
+- Submitted registration data will be stored in the MySQL database
